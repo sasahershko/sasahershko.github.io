@@ -17,8 +17,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*background-color: rgb(0, 0, 0);*/
-  /*PONER EL FONT AQUÍ*/
   font-family: 'SpaceMono-Regular', sans-serif;
 }
 
@@ -49,13 +47,19 @@ header{
   color: var(--secondary-color);
 }
 
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .navigation a{
   position: relative;
   font-size: 1.1em;
   color: var(--secondary-color);
   text-decoration: none;
   font-weight: 500;
-  margin-left: 35px;
+  margin-right: 20px;
 }
 
 .navigation a::after{
