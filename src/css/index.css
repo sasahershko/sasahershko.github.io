@@ -149,6 +149,8 @@ section{
   min-height: 100vh;
   padding: 10rem 12% 10rem;
   color: var(--secondary-color);
+  /* AJUSTO PARA QUE NO SE SUPERPONGA CON LA CABECERA */
+  margin-top: 80px;
 }
 
 .home-content{
