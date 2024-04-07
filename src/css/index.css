@@ -21,6 +21,7 @@
 }
 
 body{
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,8 +150,8 @@ section{
   min-height: 100vh;
   padding: 10rem 12% 10rem;
   color: var(--secondary-color);
-  /* AJUSTO PARA QUE NO SE SUPERPONGA CON LA CABECERA */
-  margin-top: 80px;
+  /* MARGIN TOP DEL TITULO */
+  margin-top: 30px;
 }
 
 .home-content{
@@ -159,7 +160,7 @@ section{
   align-items: baseline;
   text-align: left ;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 1rem; 
 }
 
 span{
