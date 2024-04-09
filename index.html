@@ -1,35 +1,74 @@
 <!DOCTYPE html>
+
 <head>
   <!-----------META DATOS------------>
-  <meta charset="UTF-8"> 
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Portfolio de Saray Lara, Ingeniera del Software.">
-  <meta name="theme-color" content="#004932">
+  <meta name="theme-color" content="#ffffff">
   <!------------OPEN GRAPH------------>
   <meta property="og:title" content="Portfolio de Saray Lara">
 
-  <!------------vinculos------------>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
-  <script src="script.js"></script>
+  <title>Saray Lara</title>
+  <link rel="icon" href="src/css/images/black-star.ico"image/x-icon">
 
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-  crossorigin="anonymous">
-<header>
-  <ul>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="#">About me</a></li>
-    <li><a href="#">Social</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</header>
-<main>
-  <h1><span>Saray Lara</span></h1>
-</main>
-<footer>
-  <span class="dynamic-quote">&ldquo;When you realize nothing is lacking, the whole world belongs to you.&rdquo; ~Lao Tzu</span>
-  <span class="static-quote"><span>&ldquo;When you realize nothing is lacking,</span> <span>the whole world belongs to you.&rdquo; ~Lao Tzu</span></span>
-</footer>
+  <!------------vinculos------------>
+  <link rel="stylesheet" href="src/css/index.css" />
+  <script src="src/js/darkmode.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <h2 class="logo">Saray Lara</h2>
+    <div class="right-container">
+      <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="src/navigation/about.html">About</a>
+        <a href="src/navigation/projects.html">Projects</a>
+        <a href="src/navigation/contact.html">Contact</a>
+      </nav>
+      <label>
+        <input type="checkbox" id="darkModeOn">
+        <img src="src/css/images/sunny-outline.svg" alt="sun" class="lightmode">
+        <img src="src/css/images/whitemoon.png" alt="moon" class="darkmode">
+        <ion-icon name="moon-outline"></ion-icon>
+        <span class="toggle"></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi!, I'm <span>Saray Lara</span></h1>
+      <h3 class="text-animation">Student<span></span></h3>
+      <p>
+        I'm currently pursuing a degree in Software Engineering at U-Tad University in Madrid, Spain. With a passion for technology and a drive to innovate. I'm on a journey to develop my skills and knowledge in the dynamic field of software development.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/saray-lara-7b79b32a0/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/sasahershko""><i class='bx bxl-github'></i></a>
+        <a href="https://www.twitch.tv/sasahershko""><i class='bx bxl-twitch' ></i></i></a>
+        <a href="#""><i class='bx bxl-twitter'></i></a>
+      </div>
+
+      <div class="btn-group">
+        <a href="src/css/documents/Saray_CV.pdf" download="Saray_CV.pdf" class="btn">Download CV</a>
+        <a href="src/navigation/contact.html" class="btn">Contact</a>
+      </div>
+    </div>
+</section>
+
+<!-- PARA LA IMÁGEN QUE QUIERAS PONER
+    <div class="home-img">
+      <img src="image.jpg" alt="">
+    </div> -->
+
+
+</body>
+
+
+
+</html>
